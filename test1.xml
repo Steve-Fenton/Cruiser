@@ -1,0 +1,54 @@
+<Projects CCType="CCNet">
+    <Project name="Important Project Name" category="Core" activity="Sleeping" lastBuildStatus="Success" lastBuildLabel="5" lastBuildTime="2012-02-22T10:22:40.4026703+00:00" nextBuildTime="2012-02-22T11:20:13.4929454+00:00" webUrl="http://servername/ccnet" CurrentMessage="Build (IfModificationExists) triggered from continuous" BuildStage="" serverName="local" description="">
+        <messages>
+            <message text="Build (IfModificationExists) triggered from continuous" kind="BuildStatus" />
+        </messages>
+    </Project>
+    <Project name="Failing Project Name" category="Core" activity="Sleeping" lastBuildStatus="Failure" lastBuildLabel="8" lastBuildTime="2012-02-22T10:22:40.4026703+00:00" nextBuildTime="2012-02-22T11:20:13.4929454+00:00" webUrl="http://servername/ccnet" CurrentMessage="Build (IfModificationExists) triggered from continuous" BuildStage="" serverName="local" description="">
+        <messages>
+            <message text="John Doe" kind="Breakers" />
+            <message text="Svn: CheckForModifications" kind="FailingTasks" />
+            <message text="Build (IfModificationExists) triggered from continuous" kind="BuildStatus" />
+        </messages>
+    </Project>
+    <Project name="Important Project Name 2" category="Core" activity="Sleeping" lastBuildStatus="Success" lastBuildLabel="5" lastBuildTime="2012-02-22T10:22:40.4026703+00:00" nextBuildTime="2012-02-22T11:20:13.4929454+00:00" webUrl="http://servername/ccnet" CurrentMessage="Build (IfModificationExists) triggered from continuous" BuildStage="" serverName="local" description="">
+        <messages>
+            <message text="Build (IfModificationExists) triggered from continuous" kind="BuildStatus" />
+        </messages>
+    </Project>
+    <Project name="Important Project Name 3" category="Fringe" activity="Sleeping" lastBuildStatus="Success" lastBuildLabel="5" lastBuildTime="2012-02-22T10:22:40.4026703+00:00" nextBuildTime="2012-02-22T11:20:13.4929454+00:00" webUrl="http://servername/ccnet" CurrentMessage="Build (IfModificationExists) triggered from continuous" BuildStage="" serverName="local" description="">
+        <messages>
+            <message text="Build (IfModificationExists) triggered from continuous" kind="BuildStatus" />
+        </messages>
+    </Project>
+    <Project name="Important Project Name 4" category="Fringe" activity="Building" lastBuildStatus="Success" lastBuildLabel="5" lastBuildTime="2012-02-22T10:22:40.4026703+00:00" nextBuildTime="2012-02-22T11:20:13.4929454+00:00" webUrl="http://servername/ccnet" CurrentMessage="Build (IfModificationExists) triggered from continuous" BuildStage="" serverName="local" description="">
+        <messages>
+            <message text="Build (IfModificationExists) triggered from continuous" kind="BuildStatus" />
+        </messages>
+    </Project>
+    <Project name="Project That Gets Removed / Re-Added" category="Prototype" activity="Sleeping" lastBuildStatus="Success" lastBuildLabel="5" lastBuildTime="2012-02-22T10:22:40.4026703+00:00" nextBuildTime="2012-02-22T11:20:13.4929454+00:00" webUrl="http://servername/ccnet" CurrentMessage="Build (IfModificationExists) triggered from continuous" BuildStage="" serverName="local" description="">
+        <messages>
+            <message text="Build (IfModificationExists) triggered from continuous" kind="BuildStatus" />
+        </messages>
+    </Project>
+    <Project name="Important Project Name 6" category="Prototype" activity="Sleeping" lastBuildStatus="Success" lastBuildLabel="5" lastBuildTime="2012-02-22T10:22:40.4026703+00:00" nextBuildTime="2012-02-22T11:20:13.4929454+00:00" webUrl="http://servername/ccnet" CurrentMessage="Build (IfModificationExists) triggered from continuous" BuildStage="" serverName="local" description="">
+        <messages>
+            <message text="Build (IfModificationExists) triggered from continuous" kind="BuildStatus" />
+        </messages>
+    </Project>
+    <Project name="Important Project Name 7" category="Prototype" activity="Sleeping" lastBuildStatus="Unknown" lastBuildLabel="5" lastBuildTime="2012-02-22T10:22:40.4026703+00:00" nextBuildTime="2012-02-22T11:20:13.4929454+00:00" webUrl="http://servername/ccnet" CurrentMessage="Build (IfModificationExists) triggered from continuous" BuildStage="" serverName="local" description="">
+        <messages>
+            <message text="Build (IfModificationExists) triggered from continuous" kind="BuildStatus" />
+        </messages>
+    </Project>
+    <Project name="Important Project Name 8" category="Prototype" activity="Sleeping" lastBuildStatus="Success" lastBuildLabel="5" lastBuildTime="2012-02-22T10:22:40.4026703+00:00" nextBuildTime="2012-02-22T11:20:13.4929454+00:00" webUrl="http://servername/ccnet" CurrentMessage="Build (IfModificationExists) triggered from continuous" BuildStage="" serverName="local" description="">
+        <messages>
+            <message text="Build (IfModificationExists) triggered from continuous" kind="BuildStatus" />
+        </messages>
+    </Project>
+    <Project name="Important Project Name 9" category="Prototype" activity="Sleeping" lastBuildStatus="Success" lastBuildLabel="5" lastBuildTime="2012-02-22T10:22:40.4026703+00:00" nextBuildTime="2012-02-22T11:20:13.4929454+00:00" webUrl="http://servername/ccnet" CurrentMessage="Build (IfModificationExists) triggered from continuous" BuildStage="" serverName="local" description="">
+        <messages>
+            <message text="Build (IfModificationExists) triggered from continuous" kind="BuildStatus" />
+        </messages>
+    </Project>
+</Projects>
