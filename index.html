@@ -54,7 +54,7 @@
             display: block;
             float: left;
             overflow: hidden;
-            text-align: center;
+            text-align: left;
         }
         
         #footer {
@@ -183,6 +183,12 @@
                 background-image: url(data:image/png;base64,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);
             }
         }
+        
+        .projectInfo {
+			background: none;
+			height: 100%;
+			margin-left: 5px;
+		}
     </style>
 </head>
 <body>
@@ -247,18 +253,19 @@
                 moveLeft: 'Move Left',
                 moveRight: 'Move Right',
                 removeFromView: 'Remove From This View',
-                viewProject: 'View Project'
+                viewProject: 'View Project',
+                isFixing: 'is fixing the build'
             };
             
             var resources = resourcesEnGb;
 
-            var template = '<li data-name="{name}" id="{id}" class="{class}" data-category="{category}" data-update="{updateCounter}">' +
+            var template = '<li data-name="{name}" id="{id}" class="{class}" title="{title}" fixer="{fixer}" data-category="{category}" data-update="{updateCounter}">' +
                 '<div class="border">' +
                 '<div class="actions">' +
                 '    <a href="{viewurl}" target="_blank" class="icon_view icon" title="' + resources.viewProject + '"></a>' +
                 '    <a href="{forceurl}" target="_blank" class="async icon_bolt icon" title="' + resources.buildProject + '"></a>' +
                 '</div>' +
-                '<div title="{title}">{text}<br><span class="lastActivity">{activity}</span> (<span class="lastStatus">{status}</span>)</div>' +
+                '<div title="{title}" style="{style}">{text}<br><span class="lastActivity">{activity}</span> (<span class="lastStatus">{status}</span>)</div>' +
                 '</div>' +
                 '</li>';
             
@@ -270,22 +277,55 @@
                 var safeProjectName = escape($project.attr('name'));
                 var viewUrl = settings.projectUrl.replace('{project}', safeProjectName);
                 var forceUrl = settings.forceUrl.replace('{project}', safeProjectName);
+                
+				var titleText = $project.attr('name');
+				
+                var fixer = getFixerFromMessage($project);
+				var style = getFixerStyle(fixer);
+				
+				if (fixer.length > 0) {
+					titleText += ' - ' + fixer + ' ' + resources.isFixing;
+				}
+				
+				$breakers = $project.find('message[kind="Breakers"]');
+                if ($breakers.length > 0) {
+                    titleText += ' - ' + resources.breakers + ': ' + $breakers.attr('text');
+                }
+                
                 return template
                     .replace('{name}', $project.attr('name'))
                     .replace('{id}', id)
                     .replace('{class}', $project.attr('lastBuildStatus').toLowerCase() + ' ' + $project.attr('activity').toLowerCase())
-                    .replace('{title}', $project.attr('name'))
+                    .replace('{title}', titleText)
                     .replace('{category}', $project.attr('category'))
                     .replace('{forceurl}', forceUrl)
                     .replace('{viewurl}', viewUrl)
                     .replace('{activity}', $project.attr('activity'))
                     .replace('{status}', $project.attr('lastBuildStatus'))
                     .replace('{updateCounter}', updateCounter)
-                    .replace('{text}', $project.attr('name'));
+                    .replace('{text}', $project.attr('name'))
+                    .replace('{style}', style)
+                    .replace('{fixer}', fixer);
             };
             
             var updateExistingProject = function (id, $project) {
                 $display = $('#' + id);
+                                             
+                if (hasProjectChangedState($display, $project))
+				{
+					$display.attr('fixer', '');				
+				}
+                                
+                var fixer = getFixerFromMessage($project);		
+				if (fixer.length > 0) {
+					
+					$display.attr('fixer', fixer);
+					
+					var style = getFixerStyle(fixer);	
+					$display.find('.projectInfo').attr('style', style);
+				}
+
+				setTitleText($display, $project);				
                 
                 $display.attr('data-update', updateCounter);
                
@@ -295,13 +335,65 @@
                     
                 $display.find('.lastActivity').html($project.attr('activity'));
                 $display.find('.lastStatus').html($project.attr('lastBuildStatus'));
+                                
                 
-                $breakers = $project.find('message[kind="Breakers"]');
+                if (!isProjectBeingFixed($display)) {				
+					$display.find('.projectInfo').attr('style', '');
+				}
+            };
+            
+            var hasProjectChangedState = function ($display, $project) {
+            	return !$display.hasClass($project.attr('lastBuildStatus').toLowerCase());
+            };
+            
+            var isProjectBeingFixed = function ($display) {
+            	return $display.attr('fixer') !== '';
+            };
+            
+            var getFixerFromMessage = function ($project) {
+				var fixerMessage = $project.find('message[kind="Fixer"]');
+				
+				if (fixerMessage.length === 0) {
+					return '';
+				}
+				
+				return fixerMessage.attr('text').split(" ")[0];
+			};
+			
+			var getFixerStyle = function (fixer) {					
+				if (fixer.length === 0) {
+					return '';
+				}
+				
+				var portraitUrl = 'portraits/' + fixer + '.png';
+				if (!doesUrlExist(portraitUrl)) {
+					portraitUrl = 'portraits/default.png';
+				}
+				
+				return 'background: url(http://buildservermk2.dev.newvoicemedia.com/ccnet/' + portraitUrl +') bottom right no-repeat;';
+			};
+            
+            var setTitleText = function ($display, $project) {
+            	var titleText = $project.attr('name');
+				
+				if (isProjectBeingFixed($display)) {
+					titleText += ' - ' + $display.attr('fixer') + ' ' + resources.isFixing;
+				}
+				
+				$breakers = $project.find('message[kind="Breakers"]');
                 if ($breakers.length > 0) {
-                    $display.attr('title', $project.attr('name') + ' - ' + resources.breakers + ': ' + $breakers.attr('text'));
-                } else {
-                    $display.attr('title', $project.attr('name'));
+                    titleText += ' - ' + resources.breakers + ': ' + $breakers.attr('text');
                 }
+				
+				$display.attr('title', titleText);
+				$display.find('.projectInfo').attr('title', titleText);		
+            }
+            
+            var doesUrlExist = function (url) {
+            	var http = new XMLHttpRequest();
+			    http.open('HEAD', url, false);
+			    http.send();
+			    return http.status!=404;
             };
             
             var removeOldProjects = function () {
