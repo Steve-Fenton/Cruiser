@@ -259,7 +259,7 @@
             
             var resources = resourcesEnGb;
 
-            var template = '<li data-name="{name}" id="{id}" class="{class}" title="{title}" fixer="{fixer}" data-category="{category}" data-update="{updateCounter}">' +
+            var template = '<li data-name="{name}" id="{id}" class="{class}" title="{title}" data-fixer="{fixer}" data-category="{category}" data-update="{updateCounter}">' +
                 '<div class="border">' +
                 '<div class="actions">' +
                 '    <a href="{viewurl}" target="_blank" class="icon_view icon" title="' + resources.viewProject + '"></a>' +
@@ -319,7 +319,7 @@
                 var fixer = getFixerFromMessage($project);		
 				if (fixer.length > 0) {
 					
-					$display.attr('fixer', fixer);
+					$display.attr('data-fixer', fixer);
 					
 					var style = getFixerStyle(fixer);	
 					$display.find('.projectInfo').attr('style', style);
@@ -347,7 +347,7 @@
             };
             
             var isProjectBeingFixed = function ($display) {
-            	return $display.attr('fixer') !== '';
+            	return $display.attr('data-fixer') !== '';
             };
             
             var getFixerFromMessage = function ($project) {
@@ -370,14 +370,14 @@
 					portraitUrl = 'portraits/default.png';
 				}
 				
-				return 'background: url(http://buildservermk2.dev.newvoicemedia.com/ccnet/' + portraitUrl +') bottom right no-repeat;';
+				return 'background: url(/ccnet/' + portraitUrl +') bottom right no-repeat;';
 			};
             
             var setTitleText = function ($display, $project) {
             	var titleText = $project.attr('name');
 				
 				if (isProjectBeingFixed($display)) {
-					titleText += ' - ' + $display.attr('fixer') + ' ' + resources.isFixing;
+					titleText += ' - ' + $display.attr('data-fixer') + ' ' + resources.isFixing;
 				}
 				
 				$breakers = $project.find('message[kind="Breakers"]');
@@ -393,7 +393,7 @@
             	var http = new XMLHttpRequest();
 			    http.open('HEAD', url, false);
 			    http.send();
-			    return http.status!=404;
+			    return http.status !== 404;
             };
             
             var removeOldProjects = function () {
