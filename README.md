@@ -3,6 +3,8 @@ Cruiser
 
 Cruise Control Information Radiator / Dashboard
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")https://www.stevefenton.co.uk/wp-content/uploads/2015/07/cruiser.jpg
+
 
 
 Portraits
